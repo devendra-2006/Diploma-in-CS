@@ -1,125 +1,58 @@
 <html>
+    <head></head>
+    <body>
+        <h2>CSS (Cascading Style Sheets)</h2>
+        <p>CSS stands for Cascading Style Sheets</p>
+        <p>CSS is used for looks and feel of html</p>
+        <hr>
+        <h3>Types of CSS</h3>
+        <h3>1. Inline CSS</h3><p>this is used for apply css property in same line of tag with the help of style tag</p>
+        <h3>2. Internal CSS</h3><p>internal css write code in head section with the help of stype tag. selectors are used in internal css</p>
+        <h3>3. External CSS</h3><p>external css write code in Another file with the help of ".css" extension and link it with html file with the help of link tag of href property.</p>
+        <h3>Note</h3>
+        Inline css is powerful in all css
+<hr>
+        <h3>CSS Properties</h3>
+        <p>width: value;</p>
+        <p>min-width: value;</p>
+        <p>max-width: value;</p>
+        <hr>
+        <h3>Border Properties</h3>
+        <p>border: value;</p>
+        <p>border-width: value;</p>
+        <p>border-color: value;</p>
+        <p>border-radius: value;</p>
+        <p>border-style: value;</p>
+        <p>border-top: value;</p>
+        <p>border-bottom: value;</p>
+        <p>border-left: value;</p>
+        <p>border-right: value;</p>
+        <hr>
+        <h3>Background Properties</h3>
+        <p>background-color: value;</p>
+        <p>background-image: value;</p>
+        <p>background-attachment: value;</p>
+        <p>background-position: value;</p>
+        <p>background-size: value;</p>etc
 
-<head>
-    <meta name="description" content="A comprehensive guide to HTML head elements.">
-    <title>Arcane - Day 1</title>
-    <link rel="stylesheet" href="#">
-    <style>
-        tr,
-        th,
-        td {
-            background-color: #96D4D4;
-            border: 1px solid black;
+        <br><br>
 
-        }
+        <h2>SELECTORS</h2>
+        <p>Selectors are the used to select the element in html and apply css property on it.</p>
+        <h3>Types of Selectors</h3>
+        <p><b>1. ID Selector</b></p>
+        <p>ID selectors are used for particular element symbol="#"</p>
+        <p><b>2. Class Selector</b></p>
+        <p>Class selectors are used for group of element symbol="."</p>
+        <p><b>3. Tag Selector</b></p>
+        <p>Tag selectors are used for all element of same tag symbol="tag name"</p>
+        <p><b>4. Compound Selector</b></p>
+        <p>Compound selectors are used for more than one selector symbol="selector1, selector2"</p>
+        <p><b>5. Pseudo Selector</b></p>
+        <p>Pseudo selectors are used for particular state of element symbol=":,::"</p>
+        <p><b>6. Universal Selector</b></p>
+        <p>Universal selectors are used for all element symbol="*"</p>
 
-        table {
-            width: 70%;
-        }
 
-        th {
-            width: 30%
-        }
-    </style>
-    <script src="#"></script>
-</head>
-
-<body>
-    <!-- Headigs tags (H1 To H6) -->
-    <h1>This is Heading 1</h1>
-    <h2>This is Heading 2</h2>
-    <h3>This is Heading 3</h3>
-    <h4>This is Heading 4</h4>
-    <h5>This is Heading 5</h5>
-    <h6>This is Heading 6</h6>
-    <p>This is a paragraph</p>
-    <!-- Horizontal Rule -->
-    <hr>
-    <!-- Break Tag -->
-    <br>
-    <!-- bold Tag -->
-    <b>bold text</b>
-    <br>
-    <!-- Italic Tag -->
-    <i>italic text</i>
-    <br>
-    <span>This is a span Tag</span>
-    <br>
-    <strong>This is a strong tag</strong>
-    <br>
-    <em>This is an em tag</em>
-    <br>
-    <u>This is an underline tag</u>
-    <br>
-    <hr>
-    <h4>List Tags</h4>
-    <h3>Unordered List Type "square"</h3>
-    <ul type="square">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-    </ul>
-    <h3>Ordered List Type "A"</h3>
-        <ol type="A">
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-        </ol>
-    <hr>
-    <center>
-        <h3>Table Tag</h3> 
-    </center>
-        <center><table style="border: 6px solid black;">
-            <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-            </tr>
-            <tr>
-                <td>Digicoder</td>
-                <td>Aditya</td>
-                <td>Germany</td>
-            </tr>
-            <tr>
-                <td>TCS</td>
-                <td>Vishwajeet</td>
-                <td>Maxico</td>
-            </tr>
-            <tr>
-                <td>Arcane</td>
-                <td>Devendra</td>
-                <td>India</td>
-            </tr>
-        </table>
-        <H3>FORM TAG</H3>
-        <P>form tag is used for creating a form with some properties.</P>
-        <p> 1. action: action tells performance of form with page</p>
-        <p> 2. method: method is used to specify the HTTP method to be used when submitting the form data. It can be either "get" or "post".</p>
-        <p> 3. enctype: enctype is used to specify the encoding type of the form data when it is submitted. It can be "application/x-www-form-urlencoded", "multipart/form-data", or "text/plain".</p>
-        <h3>INPUT TAG</h3>
-        <p>this is used to create input fields in a form</p>
-        <p>properties of input tag:</p>
-        <p>1. type: text, email, password, checkbox, radio, submit, reset, file, hidden, image, date, time, color</p>
-        <p>2. placeholder: it is used to provide a hint to the user about what to enter in the input field</p>
-        <p>3. value</p>
-        <p>4. name</p>
-        <p>5. id</p>
-        <p>6. class</p>
-        <p>7. disabled</p>
-        <p>8. readonly</p>
-        <p>9. required</p>
-        <p>10. maxlength</p>
-        <p>11. minlength</p>
-        <p>12. autocomplete</p>
-        <p>13. title</p>
-        <p>14. pattern</p>
-        <p>15. tabindex</p>
-        <p>16. Button</p>
-        <p> Select</p>
-        <p>this is used for single selection</p>
-        <p>option tag are nested tag in select tag</p>
-        <p>select tag contain id,class,name,multiples,etc properties</p>
-        </p>
-</body>
-
+    </body>
 </html>
